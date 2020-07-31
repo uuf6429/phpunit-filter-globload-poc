@@ -1,0 +1,16 @@
+{
+  "require": {
+    "phpunit/phpunit": "^8",
+    "barryvdh/laravel-cors": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Project\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Project\\": "tests/"
+    }
+  }
+}
